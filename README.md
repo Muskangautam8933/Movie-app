@@ -65,4 +65,32 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 ---
 
 ## Project Structure 📂
+movie-app/
+│── public/
+│── src/
+│ ├── App.js
+│ ├── Content.js
+│ ├── Header.js
+│ ├── API.js
+│ ├── output.css
+│ └── index.js
+│── package.json
+│── README.md
+
+## How to Use 🚀
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/your-username/movie-app.git
+   cd movie-app
+   
+2. Install dependencies
+    npm install
+
+3.Add your OMDb API key in API.js:
+   export const apikey = "your_api_key_here";
+
+4. Run the project
+   npm start
+ 
 
